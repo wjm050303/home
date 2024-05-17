@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(white, lightyellow);
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		background: linear-gradient(white, skyblue);
+	}
+	p {
+		font-size: 20px;
+	}
+	section {
+			text-align: center;
+	}
+}
+
+img {
+	width: 200px;
+}
+
+header {
+	color: black;
+	background: linear-gradient(130deg, wheat 40%, skyblue);
+	text-align: center;
+}
+
+section {
+	border: 2px dotted white;
+}
+
+article {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h2 {
+	background-color: lightblue;
+	text-align: center;
+}
+
+h3 {
+	background-color: lightyellow;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	width: 400px;
+}
+
+.t1 {
+	color: black;
+}
+
+.me {
+	line-height: 1.7;
+}
+
+.design {
+	line-height: 1.7;
+}
